@@ -7,4 +7,6 @@ const user = {
 
 console.log(`${user.firstName} ${user.lastName} does ${user.hobby} for fun`);
 
-console.log(`He lives in ${user.city} on ${user.address.street}`);
+console.log(`He lives in ${user.city}`);
+
+console.log(`on ${user.address.street}`);
